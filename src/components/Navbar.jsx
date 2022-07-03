@@ -13,7 +13,7 @@ function Navbar(){
             justifyContent = "space-between"
         >
             <Link style={{textDecoration:"none"}} to ="/">Home</Link>
-            <Link style={{textDecoration: "none"}} to = "/product">Products</Link>
+            <Link style={{textDecoration: "none"}} to = "/products">Products</Link>
         </Box>
     )
 }

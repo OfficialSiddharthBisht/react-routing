@@ -3,7 +3,7 @@ import React from 'react';
 import Home from './components/Home'
 import Navbar from './components/Navbar'
 import ProductPage from './components/ProductPage'
-import Products from './components/Product'
+import Product from './components/Product'
 import {Routes,Route} from 'react-router-dom'
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element = {<Home/>}></Route>
-        <Route path = '/Product' element = {<Products/>}></Route>
+        <Route path = '/Products' element = {<Product/>}></Route>
         <Route path = './Product/:id' element = {<ProductPage/>}></Route>
       </Routes>
     </div>
